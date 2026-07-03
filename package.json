@@ -1,0 +1,12 @@
+{
+  "name": "jblmeshbelts-www-backup",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Safe local Codex backup notes for www.jblmeshbelts.com",
+  "scripts": {
+    "serve": "npx serve public"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

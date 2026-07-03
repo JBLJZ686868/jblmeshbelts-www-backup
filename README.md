@@ -1,15 +1,15 @@
-# www.jblmeshbelts.com Local Backup
+# www.jblmeshbelts.com Redirect Project
 
 Backup date: 2026-07-03
 
-This Codex project records the current public state of `https://www.jblmeshbelts.com/`.
+This Codex project points `https://www.jblmeshbelts.com/` to the official JBL Mesh Belt website at `https://www.jblmeshbelt.com/`.
 
-## Important Finding
+## Original Finding
 
 The live domain returned a small `Redirecting...` HTML page served by `openresty`.
 Windows Defender blocked the downloaded HTML as virus or potentially unwanted software, so the active downloaded page was removed from this local backup.
 
-The safe local `public/index.html` is a placeholder that documents the issue. It is not a full copy of the live site.
+The current deployment now redirects visitors to the official production website.
 
 ## Current DNS
 
@@ -46,6 +46,6 @@ npm run serve
 
 Then open the printed local URL.
 
-## Next Step
+## Current Behavior
 
-To make `www.jblmeshbelts.com` show the real JBL Mesh Belt website, update DNS or hosting so this domain points to the same production site as `www.jblmeshbelt.com`, or configure a 301 redirect from `www.jblmeshbelts.com` to `https://www.jblmeshbelt.com/`.
+Vercel redirects all paths from `www.jblmeshbelts.com` to `https://www.jblmeshbelt.com/`.

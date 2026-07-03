@@ -1,5 +1,9 @@
 {
-  "outputDirectory": "public",
-  "cleanUrls": true,
-  "trailingSlash": false
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://www.jblmeshbelt.com/:path*",
+      "permanent": false
+    }
+  ]
 }

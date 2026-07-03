@@ -4,7 +4,9 @@
   "private": true,
   "description": "Safe local Codex backup notes for www.jblmeshbelts.com",
   "scripts": {
-    "serve": "npx serve public"
+    "serve": "npx.cmd serve public",
+    "vercel:preview": "npx.cmd vercel",
+    "vercel:prod": "npx.cmd vercel --prod"
   },
   "devDependencies": {
     "serve": "^14.2.4"
